@@ -108,6 +108,11 @@ nav{
     display: inline-block;
     margin-left: 4rem;
 }
+/* .barraFija{
+    position: fixed;
+    z-index: 0.1;
+    width: 100%;
+} */
 .navBrand{
     color: white;
     font-family: var(--fuenteHeading);
@@ -414,32 +419,25 @@ footer p{
     margin: 0;
     padding-bottom: 0;
 }
-.whatsapp{
-    display: none;
-}
-.whatsapp-icon {
-    display: none;
-  }
 
-@media (min-width: 768px){
-    .whatsapp {
+.whatsapp {
         display: block;
         position:fixed;
-        width:60px;
-        height:60px;
-        bottom:40px;
-        right:40px;
+        width:6rem;
+        height:6rem;
+        bottom:4rem;
+        right:4rem;
         background-color:#25d366;
         color:#FFF;
         border-radius:50px;
         text-align:center;
         font-size:30px;
         z-index:100;
-      }
+    }
       
-      .whatsapp-icon {
+.whatsapp-icon {
         display: block;
         margin-top:13px;
-      }
-    
 }
+    
+

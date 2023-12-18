@@ -4,10 +4,23 @@ document.addEventListener("DOMContentLoaded",function(){
 });
 
 const iniciarApp = ()=>{
+   
     animacion();
     animacionContacto();
 }
 
+// const navegacionFija = () =>{
+//  const barra = document.querySelector('.navegacion-principal');
+//  const cuatroImg = document.querySelector('.cuatroImgs')
+//  window.addEventListener('scroll', function(){
+//     if(cuatroImg.getBoundingClientRect().top < 0){
+//         barra.classList.add("barraFija")
+//     }else{
+//         barra.classList.remove("barraFija")
+//     }
+//  } )
+
+// }
 
 
 const animacion =()=>{
