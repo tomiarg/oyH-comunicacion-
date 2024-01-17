@@ -404,8 +404,51 @@ nav{
     color: var(--azul);
     font-size: 1.4rem;
 }
+/* marquee  */
+.marquesina{
+    background-color: var(--celeste);
 
+}
 
+marquee ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    padding: 3rem;
+    align-content: center;
+    white-space: nowrap;
+}
+.marca{
+    display: flex;
+    align-items: center;
+}
+.marca img{
+    width: 10rem; 
+}
+
+@keyframes marquee {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+.logos{
+    background-color: var(--celeste);
+    overflow: hidden;
+    padding: 6rem 0;
+}
+.logos-marquee{
+    white-space: nowrap;
+    animation: 5s marquee infinite linear;
+}
+.logos-marquee img{
+    height: 5rem;
+    margin: 0 4rem;
+}
 
 /*Footer*/
 
